@@ -5,6 +5,9 @@ Time Complexity:
     Worst Case: O(n^2)
 
 Space Complexity: O(1)
+
+Usage: Used when number of elements is small. It can also be useful when input array is almost sorted,
+       only few elements are misplaced in complete big array.
 */
 template <class T>
 void insertionSort(std::vector<T>& arr, size_t size) {

@@ -5,6 +5,8 @@ Time Complexity:
     Worst Case: O(n*log(n))
 
 Space Complexity: O(n)
+
+Usage: When sorting low-access data (e.g. tape drive). Also used when handling sequential - accessed lists
 */
 template <class T>
 void merge(std::vector<T>& arr, size_t left, size_t middle, size_t right) {

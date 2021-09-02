@@ -5,6 +5,9 @@ Time Complexity:
     Worst Case: O(n*log(n))
 
 Space Complexity: O(1)
+
+Usage : When very fast performance is not necessarily needed, but guaranteed O(n*log(n)) performance (e.g. in a game),
+        because Quicksort's O(n^2) can be very slow and because Mergesort takes O(n) extra memory.
 */
 template <class T>
 void swapHeap(std::vector<T>& arr, int left, int right) {

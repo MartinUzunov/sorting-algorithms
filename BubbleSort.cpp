@@ -5,6 +5,8 @@ Time Complexity:
     Worst Case: O(n^2)
 
 Space Complexity: O(1)
+
+Usage: Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm. 
 */
 template <class T>
 void bubbleSort(std::vector<T>& arr, size_t size) {

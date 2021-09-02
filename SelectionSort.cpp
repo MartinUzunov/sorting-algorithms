@@ -5,6 +5,8 @@ Time Complexity:
     Worst Case: O(n^2)
 
 Space Complexity: O(1)
+
+Usage: Never makes more than O(n) swaps and can be useful when memory write is a costly operation. 
 */
 template <class T>
 void selectionSort(std::vector<T>& arr, size_t size) {

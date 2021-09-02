@@ -5,6 +5,9 @@ Time Complexity:
     Worst Case: O(n^2)
 
 Space Complexity: O(log(n))
+
+Usage: Quicksort is the fastest algorithm so it is widely used as a better way of searching.
+       It is used everywhere where a stable sort is not needed.
 */
 template <class T>
 void swap(std::vector<T>& arr, int left, int right) {
