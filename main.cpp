@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT
-#include "TestSorts.h"
 #include "doctest.h"
+#include "TestSorts.h"
 
 int main() {
     doctest::Context().run();
