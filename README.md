@@ -22,3 +22,7 @@ Few sorting algorithms implemented in C++.
 
 #
 GIFs are created using http://visualgo.net .
+
+## License
+
+Licensed under the [MIT License](https://github.com/MartinUzunov/sorting-algorithms/blob/master/LICENSE.md).
